@@ -1,0 +1,14 @@
+ابتدا یک توضیح خوب برای اپ مان باید بنویسیم
+آنچه را که برنامه شما انجام می دهد را توصیف کنید
+این بدان معناست که برنامه شما چه چیزی را به عنوان ورودی دریافت می کند و چه چیزی را برمی گرداند
+سپس با نگاه کردن به اسم ها در توضیحاتمان میتونی ابجکت هارو بسازی
+
+project title: پرداخت قبص برق برای یک واحد مسکونی ک دو هم خانه دارد و بایت تعداد روزهای حضورشان باید قبض برق را 
+پرداخت نمایند
+
+Title: Flatmates Bill
+Description: an app get that as input amount of bill for a particular period and
+and the days that each of the flatmates stayed in the house for that period
+and returns how much each flatemate has to pay.It also generates a PDF report
+stating the names of the flatmates, the period, and how each of them had to pay.
+Objects: 
