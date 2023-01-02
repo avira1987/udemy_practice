@@ -10,6 +10,7 @@ class Bill:
         self.amount = amount
         self.period = period
     
+    
 
 class Flatmate:
     """
