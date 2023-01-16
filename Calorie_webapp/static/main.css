@@ -1,0 +1,26 @@
+h2 {
+    color: dimgray;
+    text-align: center;
+    font-size: 50px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 8px 8px;
+    margin: 10px 0;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: coral;
+    color: wheat;
+    padding: 12px 12px;
+    border: none;
+    border-radius: 6px;
+}
+
+body {
+    background-color:cadetblue;
+    color: azure;
+    padding: 20px;
+}
