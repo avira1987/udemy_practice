@@ -3,8 +3,10 @@ import justpy as jp
 @jp.SetRoute("/home")
 def home():
     wp = jp.WebPage()
-    jp.Div(a=wp, text = 'Hello world')
-    jp.Div(a= wp, text= 'hello again')
+    jp.Div(a=wp, text = 'Hello2 world', 
+           classes ='text-red-900 bg-gray-500 '
+                        'font-serif	text-lg	',)
+    jp.Div(a= wp, text= 'hello3 again')
     return wp
 
 @jp.SetRoute("/about")
