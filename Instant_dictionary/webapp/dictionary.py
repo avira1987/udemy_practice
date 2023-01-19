@@ -2,6 +2,7 @@ import justpy as jp
 from definition import Definition
 from webapp import layout
 from webapp import page
+import requests
 
 class Dictionary(page.Page):
     path= "/dictionary"
