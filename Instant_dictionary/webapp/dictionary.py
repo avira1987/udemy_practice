@@ -1,8 +1,8 @@
 import justpy as jp
 from definition import Definition
+import requests
 from webapp import layout
 from webapp import page
-import requests
 
 class Dictionary(page.Page):
     path= "/dictionary"
@@ -31,7 +31,14 @@ class Dictionary(page.Page):
         #         inputbox= input_box)
 
         return wp
+
     @staticmethod
     def get_definition(widget, msg):
         defined = Definition(widget.value).get()
         widget.outputdiv.text = " ".join(defined)
+#vaghti bekhaim az tarigh api mani kalamaro peyda konim    
+    # @staticmethod
+    # def get_definition(widget, msg):
+    #     req = requests.get(f"http://127.0.0.1:8000/api?w={widget.value}")
+    #     data = req.json()
+    #     widget.outputdiv.text = " ".join(data['definition'])
