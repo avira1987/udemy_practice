@@ -1,10 +1,12 @@
+import random
+import string
 class Ticket:
 
-    def __init__(self, id, user, price, seat):
-        self.id = id
+    def __init__(self, user, price, seat):
+        self.id = "".join([random.choice(string.ascii_letters) for i in range(8)])
         self.user = user
         self.price = price
         self.seat = seat
 
-    def to_buy(self, path):
+    def to_pdf(self):
         pass

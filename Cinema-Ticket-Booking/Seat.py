@@ -1,8 +1,12 @@
 class Ticket:
-    def __init__(self, seat_id, peric, availability):
+
+    database= "cinema.db"
+
+    def __init__(self, seat_id):
         self.seat_id = seat_id
-        self.peric = peric
-        self.availvabity = availability
+
+    def get_price(self):
+        pass
 
     def is_free(self, availability):
         pass
